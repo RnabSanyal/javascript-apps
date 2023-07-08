@@ -1,0 +1,29 @@
+body {
+    background-size: cover;
+    text-align: center;
+    color:blanchedalmond;
+    background-color: darkcyan;
+}
+
+h1 {
+    color: gold;
+}
+
+h2 {
+    color:darkseagreen;
+}
+
+#message-el {
+    font-style: bold;
+}
+
+#divider{
+    justify-content: center;
+    align-items: center;
+}
+
+.white-line {
+    border: none;
+    border-top: 2px solid white;
+    width: 50%;
+}
