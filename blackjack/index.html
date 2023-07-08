@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h1>A rather unimpressive implementation of the<br>BlackJack Game</h1>
+        
+        <h2 id="title">Hit start</h2>
+
+        <div id="deal_disp" class="display">
+            <h3>Dealer</h3>
+            <p id="deal_card_history">Cards: </p>
+        </div>
+        <div id="divider">
+            <hr class="white-line">
+        </div>
+
+        <div id="play_disp" class="display">
+            <h3>Player</h3>
+            <p id="play_card_history">Cards: </p>
+            <p id="play_score">Score: </p>
+        </div>
+
+        <div id="controller">
+            <button id="game_button" onclick="gameControl()">Start Game</button>
+        </div>
+        <script src = "index.js"></script>
+    </body>
+</html>
